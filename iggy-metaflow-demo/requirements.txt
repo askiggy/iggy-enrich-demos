@@ -1,0 +1,11 @@
+sklearn==0.0
+pandas==1.3.4
+geopandas
+pyarrow==6.0.0
+matplotlib==3.4.3
+shapely==1.8.0
+seaborn==0.11.2
+iggyenrich==0.0.1
+s3fs==2022.1.0
+metaflow==2.4.8
+keplergl==0.3.2
