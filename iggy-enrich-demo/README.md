@@ -10,14 +10,14 @@ We will enrich some vacation rental data, explore it and then apply the dataset 
 
 - From the root directory of the repo, set up virtual environment and install dependencies, e.g.:
     ```sh
-    python3 -m venv env
+    python3 -m venv iggy-enrich-demo
     source env/bin/activate
     pip install -r requirements.txt
     ```
 
 - Add virtual environment to Jupyter:
     ```sh
-    python -m ipykernel --user install --name=env
+    python -m ipykernel --user install --name=iggy-enrich-demo
     ```
 
 - Install Jupyter extensions to aide Kepler visualizations:
