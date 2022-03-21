@@ -3,7 +3,7 @@
 This repository hosts demos for using [Iggy](https://www.askiggy.com/) to enrich locations in datasets.
 
 ## Contents
-
+- `iggy-enrich-demo`: Using Iggy to enrich and explore a dataset of vacation rental homes
 - `iggy-metaflow-demo`: Using Iggy + [Metaflow](https://metaflow.org/) to enrich and explore a dataset of residential home sales, plus iterations on modeling flow
 - `visualization`: Using Iggy + [kepler.gl](https://kepler.gl/) in a Jupyter notebook to visualize Iggy features
 
@@ -11,7 +11,9 @@ This repository hosts demos for using [Iggy](https://www.askiggy.com/) to enrich
 
 Running these demos locally requires you to have a copy of Iggy sample data. 
 
-You can request Iggy sample data [here](https://docs.askiggy.com/download/sample-data). Once downloaded, place it in `./iggy-data` and un-compress it:
+For the `iggy-enrich-demo` the data download is included in the demo notebook.
+
+For the `iggy-metaflow-demo` and the `visualization` demo you can request Iggy sample data [here](https://docs.askiggy.com/download/sample-data). Once downloaded, place it in `./iggy-data` and un-compress it:
   ```
   tar -xzvf ./iggy-data/iggy-package-wkt-20211110214810_fl_pinellas_quadkeys.tar.gz -C ./iggy-data
   ```

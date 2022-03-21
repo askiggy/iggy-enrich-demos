@@ -26,7 +26,7 @@ We will enrich some vacation rental data, explore it and then apply the dataset 
     jupyter nbextension enable --py --sys-prefix keplergl
     ```
 
-- Launch Jupyter Notebook and run demo notebook `web_demo.ipynb`
+- Launch Jupyter Notebook and run demo notebook `iggy_enrich_demo.ipynb`
     ```sh
     jupyter notebook
     ```
