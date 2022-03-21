@@ -7,7 +7,7 @@ shapely==1.8.0
 seaborn==0.11.2
 iggyenrich==0.0.1
 keplergl==0.3.2
-numpy==1.18.3
+numpy==1.22.3
 google-api-core==1.30.0
 google-auth==1.32.0
 google-cloud-core==1.7.0

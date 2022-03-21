@@ -17,7 +17,7 @@ We will enrich some vacation rental data, explore it and then apply the dataset 
 
 - Add virtual environment to Jupyter:
     ```sh
-    python -m ipykernel install --name=env
+    python -m ipykernel --user install --name=env
     ```
 
 - Install Jupyter extensions to aide Kepler visualizations:
