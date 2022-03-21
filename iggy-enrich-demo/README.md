@@ -11,7 +11,7 @@ We will enrich some vacation rental data, explore it and then apply the dataset 
 - From the root directory of the repo, set up virtual environment and install dependencies, e.g.:
     ```sh
     python3 -m venv iggy-enrich-demo
-    source env/bin/activate
+    source iggy-enrich-demo/bin/activate
     pip install -r requirements.txt
     ```
 
