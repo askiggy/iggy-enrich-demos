@@ -5,7 +5,7 @@ pyarrow==6.0.0
 matplotlib==3.4.3
 shapely==1.8.0
 seaborn==0.11.2
-iggyenrich==0.0.1
+iggyenrich==0.0.2
 keplergl==0.3.2
 numpy==1.22.3
 google-api-core==1.30.0

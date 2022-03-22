@@ -8,7 +8,7 @@ We will enrich some vacation rental data, explore it and then apply the dataset 
 ## Getting started
 
 
-- From the root directory of the repo, set up virtual environment and install dependencies, e.g.:
+- From the root directory of the demo, set up virtual environment and install dependencies, e.g.:
     ```sh
     python3 -m venv iggy-enrich-demo
     source iggy-enrich-demo/bin/activate
