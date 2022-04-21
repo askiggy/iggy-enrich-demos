@@ -18,6 +18,16 @@ For the `iggy-metaflow-demo` and the `visualization` demo you can request Iggy s
   tar -xzvf ./iggy-data/iggy-package-wkt-20211110214810_fl_pinellas_quadkeys.tar.gz -C ./iggy-data
   ```
 
+## Kepler
+
+For the demo visualizations, when using Kepler in a Jupiter notebook running on a conda virtual environment you will need to enable a notebook extension per [this issue](https://github.com/keplergl/kepler.gl/issues/583)
+
+- Install Jupyter extensions to aide Kepler visualizations:
+    ```sh
+    jupyter nbextension install --py --sys-prefix keplergl
+    jupyter nbextension enable --py --sys-prefix keplergl
+    ```
+
 ## Related Links
 
 - [Iggy Data Readme](https://docs.askiggy.com/reference/place-data)
